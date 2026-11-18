@@ -1,0 +1,1 @@
+U1  EBYTE E73-2G4M04S1B (BLE module nRF52832, built-in PCB antenna) - LCSC C411306 or RobotShop/AliExpress

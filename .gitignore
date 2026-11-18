@@ -1,3 +1,10 @@
 # FreeCAD backups
 *.FCBak
 *.FCStd1
+
+# KiCad: local history, lock files, per-user view settings, caches
+PCB/.history/
+*.lck
+*.kicad_prl
+fp-info-cache
+*-backups/
