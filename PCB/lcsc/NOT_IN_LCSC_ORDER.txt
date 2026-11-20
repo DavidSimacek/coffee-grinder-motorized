@@ -1,0 +1,1 @@
+U1 E73-2G4M08S1C (nRF52840, ceramic antenna) - bought separately on AliExpress; LCSC C356849 if needed

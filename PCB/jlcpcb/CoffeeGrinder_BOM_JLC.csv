@@ -3,14 +3,18 @@ Comment,Designator,Footprint,LCSC Part #
 100nF 50V X7R 0603,"C2,C5,C8,C9,C10,C12",C_0603_1608Metric,C14663
 1uF 50V X7R 0805,C3,C_0805_2012Metric,C28323
 10uF 25V X5R 0805,"C4,C11",C_0805_2012Metric,C15850
+4.7uF 16V X5R 0603 (VBUS),C13,C_0603_1608Metric,C19666
 TVS 15V unidirectional SMA,D1,D_SMA,C148216
 Zener 12V SOT-23,D2,SOT-23,C82475
 Schottky 40V 3A SMA (flyback),D3,D_SMA,C8678
+ESD 5V 0.5pF SOD-923 (USB D+/D-),"D5,D6",D_SOD-923_NoSilk,C82326
+ESD 5V bidirectional SOD-923 (VBUS),D7,D_SOD-923_NoSilk,C111566
 LED green 0603,D4,LED_0603_1608Metric,C84267
 Fuse 3A slow-blow 1206,F1,Fuse_1206_3216Metric,C41367225
 DC barrel jack 5.5x2.1mm horizontal THT,J1,BarrelJack_Horizontal,C3096093
 "Screw terminal 2P 5.0mm (MKDS 1,5/2)",J2,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",C474881
 JST PH 2-pin vertical header,J5,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,C131337
+USB-C 16-pin receptacle (data only),J6,USB_C_HRO_TYPE-C-31-M-12_EdgeMount,C165948
 P-MOSFET 30V 3.8A SOT-23 (reverse polarity),Q1,SOT-23,C155244
 N-MOSFET 30V 5.7A SOT-23 (motor switch),Q2,SOT-23,C20917
 10k 1% 0603,R1,R_0603_1608Metric,C25804
@@ -19,7 +23,8 @@ N-MOSFET 30V 5.7A SOT-23 (motor switch),Q2,SOT-23,C20917
 10 mOhm 1% 1206 current sense,R6,R_1206_3216Metric,C844280
 1k 1% 0603,"R7,R12",R_0603_1608Metric,C21190
 22k 1% 0603,R9,R_0603_1608Metric,C31850
+5.1k 1% 0603 (USB-C CC pull-downs),"R13,R14",R_0603_1608Metric,C23186
 Tactile switch 6x6mm THT,SW1,SW_PUSH_6mm,C110153
-"BLE module nRF52832, built-in PCB antenna",U1,E73-2G4M04S,C411306
+"BLE module nRF52840 E73-2G4M08S1C, ceramic antenna",U1,E73-2G4M08S1C,C356849
 "3.3V 100mA regulator, 30V in, SOT-89",U2,SOT-89-3,C14170
 "Current sense amp, gain 100, SOT-23-5",U3,SOT-23-5,C122882

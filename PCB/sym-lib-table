@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CoffeeGrinder") (type "KiCad") (uri "${KIPRJMOD}/CoffeeGrinder.kicad_sym") (options "") (descr "Project symbols"))
+)
