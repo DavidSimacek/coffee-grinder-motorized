@@ -9552,7 +9552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "CoffeeGrinder:SW_PUSH_6mm_Drill1.3"
 			(at 350.52 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9631,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "CoffeeGrinder:TerminalBlock_Kefa_KF301-5.0-2P"
 			(at 162.56 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13303,7 +13303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "CoffeeGrinder:R_1206_3216Metric_Vishay_WSL"
 			(at 140.462 147.32 90)
 			(hide yes)
 			(show_name no)
