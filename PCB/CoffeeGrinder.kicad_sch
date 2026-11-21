@@ -1443,164 +1443,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -2870,6 +2712,172 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5326,7 +5334,7 @@
 		)
 		(uuid "9d18f807-24b4-443d-adff-2580c1764f70")
 	)
-	(text "Pin map: P0.28/AIN4 = I_SENSE, P0.03/AIN1 = VIN_SENSE, P1.13 = MOTOR_PWM, P0.31/P0.29 = UART TX/RX,\nP0.05 = button, P0.02 = lid switch, P0.24 = LED (active low). Use internal pull-ups on P0.05/P0.02.\nVDDH tied to VDD (normal-voltage mode), DCCH and XL1/XL2 open. Only outer module pads are used (hand soldering).\nCeramic antenna at the board edge: no copper under it; keep metal parts of the grinder away from it."
+	(text "Pin map: P0.28/AIN4 = I_SENSE, P0.03/AIN1 = VIN_SENSE, P1.13 = MOTOR_PWM, P0.31/P0.29 = UART TX/RX,\nP0.05 = button, P0.24 = LED (active low). Use internal pull-up on P0.05. P0.02 unused.\nVDDH tied to VDD (normal-voltage mode), DCCH and XL1/XL2 open. Only outer module pads are used (hand soldering).\nCeramic antenna at the board edge: no copper under it; keep metal parts of the grinder away from it."
 		(exclude_from_sim no)
 		(at 232.41 157.48 0)
 		(effects
@@ -5579,6 +5587,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f0e7e3-50ac-4860-9fab-4ec3c715fbe0")
+	)
+	(no_connect
+		(at 327.66 96.52)
+		(uuid "ec52d651-7545-43a6-948a-0eb14360811d")
 	)
 	(no_connect
 		(at 327.66 106.68)
@@ -5952,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 96.52) (xy 378.46 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3c3088-7360-4621-a2f0-0a2c35569fbd")
-	)
-	(wire
-		(pts
 			(xy 370.84 81.28) (xy 370.84 83.82)
 		)
 		(stroke
@@ -6252,16 +6254,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 99.06) (xy 370.84 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0151e7f-2405-4c49-b65d-c267f4ff096b")
-	)
-	(wire
-		(pts
 			(xy 35.56 50.8) (xy 40.64 50.8)
 		)
 		(stroke
@@ -6419,16 +6411,6 @@
 			(type default)
 		)
 		(uuid "bfc9f647-7834-4b33-972d-bf2ec557fa7a")
-	)
-	(wire
-		(pts
-			(xy 370.84 99.06) (xy 370.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c14ab51b-25d6-4f27-aa0b-e5a56ad9d39c")
 	)
 	(wire
 		(pts
@@ -6779,16 +6761,6 @@
 			(justify left bottom)
 		)
 		(uuid "4a0d8dd1-2c58-4d99-882f-e475e0cea173")
-	)
-	(label "LID_SW"
-		(at 340.36 96.52 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b2039b7-c58c-4477-9610-71320e1601e0")
 	)
 	(label "VIN_FUSED"
 		(at 50.8 40.64 0)
@@ -12210,83 +12182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 370.84 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c17cc3d1-f2be-4741-9304-528f9199842c")
-		(property "Reference" "#PWR31"
-			(at 370.84 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 370.84 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3de26003-4862-4140-8b01-e8b453b886c5")
-		)
-		(instances
-			(project "CoffeeGrinder"
-				(path "/21080d47-e5d1-48b4-9e9d-01634e4398e9"
-					(reference "#PWR31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 124.46 50.8 0)
 		(unit 1)
@@ -12817,96 +12712,6 @@
 			(project "CoffeeGrinder"
 				(path "/21080d47-e5d1-48b4-9e9d-01634e4398e9"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 383.54 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "deece89e-8cd1-4080-bb10-86c29fdd7452")
-		(property "Reference" "J5"
-			(at 383.54 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LID SW"
-			(at 383.54 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 383.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 383.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 383.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31dcd9ea-260a-4b51-ba49-628a3bd0427a")
-		)
-		(pin "2"
-			(uuid "1bc6c244-f5ce-4847-bc0b-885d9e171b30")
-		)
-		(instances
-			(project "CoffeeGrinder"
-				(path "/21080d47-e5d1-48b4-9e9d-01634e4398e9"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13757,12 +13562,12 @@
 		(property "Description" "" (at 289.56 198.12 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1" (uuid "548cb83b-1d56-4851-9267-5c91ff4442db"))
 		(instances (project "CoffeeGrinder" (path "/21080d47-e5d1-48b4-9e9d-01634e4398e9" (reference "#PWR41") (unit 1)))))
-	(symbol (lib_id "Device:D_TVS") (at 287.02 222.25 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c9c972b1-632c-48e7-97dc-cc9674d31797")
+	(symbol (lib_id "Device:D_Zener") (at 287.02 222.25 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c9c972b1-632c-48e7-97dc-cc9674d31797")
 		(property "Reference" "D5" (at 289.56 220.98 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Value" "ESD9L5.0ST5G" (at 289.56 223.52 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "CoffeeGrinder:D_SOD-923_NoSilk" (at 287.02 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Datasheet" "" (at 287.02 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "Description" "5V ultra-low-capacitance TVS (0.5 pF), USB data ESD protection, SOD-923" (at 287.02 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "5V ultra-low-capacitance unidirectional TVS (0.5 pF), USB data ESD protection, SOD-923. Pin 1 = cathode (band) to data line" (at 287.02 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "LCSC" "C82326" (at 287.02 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1" (uuid "11748a2e-ae8a-4cc3-827d-a2afbf28940d"))
 		(pin "2" (uuid "4390a373-d8b2-4230-9d02-c0aeb0071e83"))
@@ -13777,12 +13582,12 @@
 		(property "Description" "" (at 287.02 226.06 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1" (uuid "8d9a12b9-8ef6-4811-b627-aaba649213e6"))
 		(instances (project "CoffeeGrinder" (path "/21080d47-e5d1-48b4-9e9d-01634e4398e9" (reference "#PWR42") (unit 1)))))
-	(symbol (lib_id "Device:D_TVS") (at 297.18 222.25 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "20b07235-3c57-48d3-9415-42a9be357ff0")
+	(symbol (lib_id "Device:D_Zener") (at 297.18 222.25 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "20b07235-3c57-48d3-9415-42a9be357ff0")
 		(property "Reference" "D6" (at 299.72 220.98 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Value" "ESD9L5.0ST5G" (at 299.72 223.52 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "CoffeeGrinder:D_SOD-923_NoSilk" (at 297.18 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Datasheet" "" (at 297.18 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "Description" "5V ultra-low-capacitance TVS (0.5 pF), USB data ESD protection, SOD-923" (at 297.18 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "5V ultra-low-capacitance unidirectional TVS (0.5 pF), USB data ESD protection, SOD-923. Pin 1 = cathode (band) to data line" (at 297.18 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "LCSC" "C82326" (at 297.18 222.25 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1" (uuid "ca7a7dc7-d40f-4c02-8b06-35e6d6fbfd36"))
 		(pin "2" (uuid "f85fb3de-184f-4fee-ab2c-25c4a0082387"))
